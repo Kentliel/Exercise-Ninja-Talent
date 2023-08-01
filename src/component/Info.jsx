@@ -16,13 +16,13 @@ const Info = () => {
 
   return (
     <div className='bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-gray-900 via-gray-100 to-gray-900'>
+        <h1 className='p-4 font-bold text-2xl text-center'>Data de Usuarios Random</h1>
       <section>
         {totalRandomUser?.map((user, index) => {
 
           return (
       <div className='flex flex-col gap-4 items-center justify-center'>
-            
-      <h3 className='p-4 font-bold text-xl'>Foto del usuario</h3>
+      <h3 className='p-4 font-bold text-lg'>Foto del usuario</h3>
       <img src={user.picture.medium} alt={user.id.name} className='object-contain h-[80px] w-[80px] border-double border-2 border-black rounded'/>
           
       <button onClick={() => toggleTableVisibility(index)} className='p-2 bg-blue-950 text-white font-bold rounded-lg shadow-lg text-sm'>

@@ -1,3 +1,13 @@
+# Aqui dejo el link del deployment
+
+[Link UserRandom!]("https://userdatarandom.netlify.app/") 
+
+## Una explicacion sobre los datos tomados de la api
+
+En la tabla he dejado algunos datos sensibles los cuales, el administrador pude acceder.
+Pero los datos como la contraseña, horas de registro, edad, Coordenadas, etc. Por razones lógicas no los muestro, por leyes de “protección de datos ”, que en un dado caso que se necesitaran o se especificaran no tendría ningún problema en acceder a ello y mostrarlo.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
